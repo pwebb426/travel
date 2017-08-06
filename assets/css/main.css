@@ -1,13 +1,88 @@
 @charset 'utf-8';
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
+/*@import url('https://fonts.googleapis.com/css?family=Material+Icons|Roboto|Roboto+Condensed|Product+Sans|BenchNine|Engagement');*/
+body {
+  min-height: 100vh;
+  background-color: #ddd;
 }
-iframe {
-  position: absolute;
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+nav {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),
+    0 4px 8px rgba(0, 0, 0, 0.28);
+}
+nav div.userView {
+  padding-bottom: 85% !important;
+}
+nav div.userView, nav div.userView * {
+  font-family: 'Pathway Gothic One';
+}
+nav a, nav .brand-logo, nav ul a {
+  color: rgb(0, 0, 0);
+}
+nav a {
+  font-family: 'Product Sans';
+}
+
+@media only screen and (min-width: 601px) {
+  nav .button-collapse {
+    border-radius: 50%;
+    padding: 0 20px;
+  }
+}
+.tap-target-origin {
+  color: rgb(0, 0, 0);
+}
+
+#nav-mobile {
+  transition: box-shadow 0.2s ease-in-out;
+}
+#nav-mobile[style],
+#nav-mobile[style^="transform: translateX(-1"],
+#nav-mobile[style^="transform: translateX(-2"] {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44),
+    0 1px 5px 0 rgba(0, 0, 0, 0.42),
+    0 3px 1px -2px rgba(0, 0, 0, 0.5),
+    0 0 0 105vw rgba(0, 0, 0, 0.3);
+}
+#nav-mobile[style^="transform: translateX(-3"] {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.44),
+    0 1px 5px 0 rgba(0, 0, 0, 0.42),
+    0 3px 1px -2px rgba(0, 0, 0, 0.5),
+    0 0 0 105vw rgba(0, 0, 0, 0);
+}
+#nav-mobile[style^="transform: translateX(-100%)"] {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0),
+    0 1px 5px 0 rgba(0, 0, 0, 0),
+    0 3px 1px -2px rgba(0, 0, 0, 0),
+    0 0 0 105vw rgba(0, 0, 0, 0);
+}
+.background img {
   width: 100%;
-  height: 100%;
+}
+#sidenav-overlay {
+  display: none;
+}
+.drag-target {
+  width: 20px;
+}
+
+/*
+  ==============================================================================
+  FAB
+  ==============================================================================
+*/
+.btn-floating {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),
+    0 4px 8px rgba(0, 0, 0, 0.28);
+}
+.btn-floating:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16),
+    0 6px 12px rgba(0, 0, 0, 0.32);
+}
+.btn-floating img {
+  margin-top: 10%;
+  padding: 10%;
+  width: 80%;
 }
