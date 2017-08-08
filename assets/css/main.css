@@ -1,6 +1,5 @@
 @charset 'utf-8';
 body {
-  min-height: 100vh;
   background-color: #ddd;
 }
 body::-webkit-scrollbar {
