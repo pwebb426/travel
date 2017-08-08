@@ -2613,10 +2613,10 @@ a {
 }
 
 .hoverable {
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
 }
 
 .hoverable:hover {
@@ -2922,8 +2922,8 @@ table.striped > tbody > tr > td {
 }
 
 table.highlight > tbody > tr {
-  -webkit-transition: background-color .25s ease;
-  transition: background-color .25s ease;
+  -webkit-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
 }
 
 table.highlight > tbody > tr:hover {
@@ -3091,8 +3091,8 @@ td, th {
 
 .collection a.collection-item {
   display: block;
-  -webkit-transition: .25s;
-  transition: .25s;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
   color: #26a69a;
 }
 
@@ -3156,8 +3156,8 @@ td, th {
   left: 0;
   bottom: 0;
   background-color: #26a69a;
-  -webkit-transition: width .3s linear;
-  transition: width .3s linear;
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
 }
 
 .progress .indeterminate {
@@ -4321,8 +4321,8 @@ nav ul {
 }
 
 nav ul li {
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   float: left;
   padding: 0;
 }
@@ -4332,8 +4332,8 @@ nav ul li.active {
 }
 
 nav ul a {
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   font-size: 1rem;
   color: #fff;
   display: block;
@@ -4389,8 +4389,8 @@ nav .input-field label {
 
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 nav .input-field label.active i {
@@ -4660,10 +4660,10 @@ small {
 .scale-transition.scale-out {
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: -webkit-transform .2s !important;
-  transition: -webkit-transform .2s !important;
-  transition: transform .2s !important;
-  transition: transform .2s, -webkit-transform .2s !important;
+  -webkit-transition: -webkit-transform 0.2s !important;
+  transition: -webkit-transform 0.2s !important;
+  transition: transform 0.2s !important;
+  transition: transform 0.2s, -webkit-transform 0.2s !important;
 }
 
 .scale-transition.scale-in {
@@ -4672,10 +4672,10 @@ small {
 }
 
 .card-panel {
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
   padding: 24px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
@@ -4686,10 +4686,10 @@ small {
   position: relative;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
   border-radius: 2px;
 }
 
@@ -4857,9 +4857,8 @@ small {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 24px;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
-  text-transform: uppercase;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
@@ -5013,7 +5012,6 @@ small {
   height: 48px;
   padding: 0;
   margin: 0;
-  text-transform: uppercase;
 }
 
 .tabs .tab a {
@@ -5025,8 +5023,8 @@ small {
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
-  -webkit-transition: color .28s ease;
-  transition: color .28s ease;
+  -webkit-transition: color 0.28s ease;
+  transition: color 0.28s ease;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
@@ -5107,7 +5105,6 @@ small {
   height: 36px;
   line-height: 36px;
   padding: 0 2rem;
-  text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
@@ -5178,9 +5175,9 @@ small {
   color: #fff;
   background-color: #26a69a;
   text-align: center;
-  letter-spacing: .5px;
-  -webkit-transition: .2s ease-out;
-  transition: .2s ease-out;
+  letter-spacing: 0.5px;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
   cursor: pointer;
 }
 
@@ -5200,8 +5197,8 @@ small {
   padding: 0;
   background-color: #26a69a;
   border-radius: 50%;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
   vertical-align: middle;
 }
@@ -5371,8 +5368,8 @@ button.btn-floating {
   background-color: transparent;
   color: #343434;
   cursor: pointer;
-  -webkit-transition: background-color .2s;
-  transition: background-color .2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 .btn-flat:focus, .btn-flat:hover {
@@ -5488,8 +5485,8 @@ button.btn-floating {
   -webkit-tap-highlight-color: transparent;
   vertical-align: middle;
   z-index: 1;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .waves-effect .waves-ripple {
@@ -5819,8 +5816,8 @@ button.btn-floating {
   margin: 0 0 20px 0;
   min-height: 45px;
   outline: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .chips.focus {
@@ -5880,13 +5877,13 @@ button.btn-floating {
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
   position: relative;
-  -webkit-transition: opacity .4s;
-  transition: opacity .4s;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
   -webkit-backface-visibility: hidden;
 }
 
 .materialboxed:hover:not(.active) {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .materialboxed.active {
@@ -6294,8 +6291,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   top: 100%;
   left: 0;
   opacity: 0;
-  -webkit-transition: .2s opacity ease-out, .2s color ease-out;
-  transition: .2s opacity ease-out, .2s color ease-out;
+  -webkit-transition: 0.2s opacity ease-out, 0.2s color ease-out;
+  transition: 0.2s opacity ease-out, 0.2s color ease-out;
 }
 
 .input-field {
@@ -6331,10 +6328,10 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   height: 100%;
   font-size: 1rem;
   cursor: text;
-  -webkit-transition: -webkit-transform .2s ease-out;
-  transition: -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out;
-  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
   text-align: initial;
@@ -6354,8 +6351,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   position: absolute;
   width: 3rem;
   font-size: 2rem;
-  -webkit-transition: color .2s;
-  transition: color .2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 .input-field .prefix.active {
@@ -6431,8 +6428,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   color: transparent;
   cursor: pointer;
   font-size: 2rem;
-  -webkit-transition: .3s color;
-  transition: .3s color;
+  -webkit-transition: 0.3s color;
+  transition: 0.3s color;
 }
 
 /* Textarea */
@@ -6445,7 +6442,7 @@ textarea {
 textarea.materialize-textarea {
   overflow-y: hidden;
   /* prevents scroll bar flash */
-  padding: .8rem 0 1.6rem 0;
+  padding: 0.8rem 0 1.6rem 0;
   /* prevents text jump on Enter keypress */
   resize: none;
   min-height: 3rem;
@@ -6513,8 +6510,8 @@ textarea.materialize-textarea.validate + label:not(.label-icon).active {
   height: 25px;
   line-height: 25px;
   font-size: 1rem;
-  -webkit-transition: .28s ease;
-  transition: .28s ease;
+  -webkit-transition: 0.28s ease;
+  transition: 0.28s ease;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -6531,8 +6528,8 @@ textarea.materialize-textarea.validate + label:not(.label-icon).active {
   width: 16px;
   height: 16px;
   z-index: 0;
-  -webkit-transition: .28s ease;
-  transition: .28s ease;
+  -webkit-transition: 0.28s ease;
+  transition: 0.28s ease;
 }
 
 /* Unchecked styles */
@@ -6668,8 +6665,8 @@ form p:last-child {
   border: 2px solid #5a5a5a;
   border-radius: 1px;
   margin-top: 2px;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 [type="checkbox"]:not(.filled-in) + label:after {
@@ -6747,9 +6744,9 @@ form p:last-child {
   content: '';
   left: 0;
   position: absolute;
-  /* .1s delay is for check animation */
-  -webkit-transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
-  transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
+  /* 0.1s delay is for check animation */
+  -webkit-transition: border 0.25s, background-color 0.25s, width 0.20s 0.1s, height 0.20s 0.1s, top 0.20s 0.1s, left 0.20s 0.1s;
+  transition: border 0.25s, background-color 0.25s, width 0.20s 0.1s, height 0.20s 0.1s, top 0.20s 0.1s, left 0.20s 0.1s;
   z-index: 1;
 }
 
@@ -6886,10 +6883,10 @@ form p:last-child {
   border-radius: 50%;
   left: 0;
   top: -3px;
-  -webkit-transition: left 0.3s ease, background .3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform .1s ease;
-  transition: left 0.3s ease, background .3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform .1s ease;
-  transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
-  transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease, -webkit-box-shadow 0.1s ease, -webkit-transform .1s ease;
+  -webkit-transition: left 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease, transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease, transform 0.1s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
 }
 
 .switch label .lever:before {
@@ -7208,8 +7205,8 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   margin: -5px 0 0 0;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
@@ -7297,7 +7294,7 @@ input[type=range]:focus::-ms-fill-upper {
   padding-left: 20px;
   height: 1.5rem;
   line-height: 1.5rem;
-  letter-spacing: .4;
+  letter-spacing: 0.4;
   display: inline-block;
 }
 
@@ -8141,8 +8138,8 @@ input[type=range]:focus::-ms-fill-upper {
   width: 16px;
   margin: 0 12px;
   background-color: #e0e0e0;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   border-radius: 50%;
 }
 
@@ -8229,8 +8226,8 @@ input[type=range]:focus::-ms-fill-upper {
   width: 8px;
   margin: 24px 4px;
   background-color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   border-radius: 50%;
 }
 
@@ -8249,8 +8246,8 @@ input[type=range]:focus::-ms-fill-upper {
   position: fixed;
   z-index: 1000;
   visibility: hidden;
-  -webkit-transition: visibility 0s .3s;
-  transition: visibility 0s .3s;
+  -webkit-transition: visibility 0s 0.3s;
+  transition: visibility 0s 0.3s;
 }
 
 .tap-target-wrapper.open {
@@ -8262,7 +8259,7 @@ input[type=range]:focus::-ms-fill-upper {
 .tap-target-wrapper.open .tap-target {
   -webkit-transform: scale(1);
           transform: scale(1);
-  opacity: .95;
+  opacity: 0.95;
   -webkit-transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1), opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -8278,10 +8275,10 @@ input[type=range]:focus::-ms-fill-upper {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity 0.3s, visibility 0s 1s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, visibility 0s 1s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, visibility 0s 1s;
+  transition: opacity 0.3s, transform 0.3s, visibility 0s 1s, -webkit-transform 0.3s;
 }
 
 .tap-target {
@@ -8326,18 +8323,18 @@ input[type=range]:focus::-ms-fill-upper {
 .tap-target-wave::before {
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity 0.3s, visibility 0s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, visibility 0s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, visibility 0s;
+  transition: opacity 0.3s, transform 0.3s, visibility 0s, -webkit-transform 0.3s;
   z-index: -1;
 }
 
@@ -8376,10 +8373,10 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   background-color: inherit;
   border-radius: inherit;
-  -webkit-transition: opacity .3s, -webkit-transform .3s;
-  transition: opacity .3s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s;
-  transition: opacity .3s, transform .3s, -webkit-transform .3s;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
   z-index: -1;
@@ -8641,7 +8638,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__header {
   text-align: center;
   position: relative;
-  margin-top: .75em;
+  margin-top: 0.75em;
 }
 
 /**
@@ -8650,8 +8647,8 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__month,
 .picker__year {
   display: inline-block;
-  margin-left: .25em;
-  margin-right: .25em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 /**
@@ -8661,8 +8658,8 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__select--year {
   height: 2em;
   padding: 0;
-  margin-left: .25em;
-  margin-right: .25em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 .picker__select--month.browser-default {
@@ -8688,7 +8685,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__nav--prev,
 .picker__nav--next {
   position: absolute;
-  padding: .5em 1.25em;
+  padding: 0.5em 1.25em;
   width: 1em;
   height: 1em;
   -webkit-box-sizing: content-box;
@@ -8726,8 +8723,8 @@ input[type=range]:focus::-ms-fill-upper {
   table-layout: fixed;
   font-size: 1rem;
   width: 100%;
-  margin-top: .75em;
-  margin-bottom: .5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
 }
 
 .picker__table th, .picker__table td {
@@ -8744,8 +8741,8 @@ input[type=range]:focus::-ms-fill-upper {
  */
 .picker__weekday {
   width: 14.285714286%;
-  font-size: .75em;
-  padding-bottom: .25em;
+  font-size: 0.75em;
+  padding-bottom: 0.25em;
   color: #999999;
   font-weight: 500;
   /* Increase the spacing a tad */
@@ -8753,7 +8750,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media (min-height: 33.875em) {
   .picker__weekday {
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
   }
 }
 
@@ -8764,7 +8761,7 @@ input[type=range]:focus::-ms-fill-upper {
   position: relative;
   color: #595959;
   letter-spacing: -.3;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   font-weight: 400;
   border: 1px solid transparent;
 }
@@ -8781,7 +8778,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .picker__day--outfocus {
   display: none;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: #fff;
 }
 
@@ -8832,8 +8829,8 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__button--close {
   border: 1px solid #ffffff;
   background: #ffffff;
-  font-size: .8em;
-  padding: .66em 0;
+  font-size: 0.8em;
+  padding: 0.66em 0;
   font-weight: bold;
   width: 33%;
   display: inline-block;
@@ -8868,19 +8865,19 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__button--today:before,
 .picker__button--clear:before {
   content: " ";
-  margin-right: .45em;
+  margin-right: 0.45em;
 }
 
 .picker__button--today:before {
   top: -0.05em;
   width: 0;
   border-top: 0.66em solid #0059bc;
-  border-left: .66em solid transparent;
+  border-left: 0.66em solid transparent;
 }
 
 .picker__button--clear:before {
   top: -0.25em;
-  width: .66em;
+  width: 0.66em;
   border-top: 3px solid #ee2200;
 }
 
@@ -8889,7 +8886,7 @@ input[type=range]:focus::-ms-fill-upper {
   top: -0.1em;
   vertical-align: top;
   font-size: 1.1em;
-  margin-right: .35em;
+  margin-right: 0.35em;
   color: #777777;
 }
 
@@ -8982,7 +8979,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .picker__table {
   margin-top: 0;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .picker__day--infocus {
@@ -9008,7 +9005,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .picker__weekday {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .picker__day--selected,
@@ -9046,8 +9043,8 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__nav--prev:before,
 .picker__nav--next:before {
   content: " ";
-  border-top: .5em solid transparent;
-  border-bottom: .5em solid transparent;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid transparent;
   border-right: 0.75em solid #676767;
   width: 0;
   height: 0;
@@ -9085,12 +9082,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-bottom: -1px;
   position: relative;
   background: #fff;
-  padding: .75em 1.25em;
+  padding: 0.75em 1.25em;
 }
 
 @media (min-height: 46.75em) {
   .picker__list-item {
-    padding: .5em 1em;
+    padding: 0.5em 1em;
   }
 }
 
@@ -9148,7 +9145,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background: none;
   border: 0;
   font-weight: 500;
-  font-size: .67em;
+  font-size: 0.67em;
   text-align: center;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.87);
